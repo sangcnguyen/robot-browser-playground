@@ -1,0 +1,14 @@
+[project]
+name = "robot-browser-playground"
+version = "0.1.0"
+description = "A Robot Framework + Browser library playground using SauceDemo"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "robotframework>=7.5",
+    "robotframework-browser>=20.6.0",
+    "robotframework-robocop>=9.1.0",
+]
+
+[tool.robocop.lint]
+ignore = ["DOC01", "DOC02"]
